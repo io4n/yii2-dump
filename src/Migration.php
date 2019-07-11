@@ -163,5 +163,10 @@ class Migration extends \yii\db\Migration
         $this->db->createCommand()->setSql($sql)->execute();
         $this->endCommand($time);
     }
+    
+    public function tinyint($length = null) 
+    { 
+        return $this->getDb()->getSchema()->createColumnSchemaBuilder('tinyint', $length); 
+    }
 }
 
