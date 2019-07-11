@@ -168,5 +168,10 @@ class Migration extends \yii\db\Migration
     { 
         return $this->getDb()->getSchema()->createColumnSchemaBuilder('tinyint', $length); 
     }
+    
+    public function longtext() 
+    { 
+        return $this->getDb()->getSchema()->createColumnSchemaBuilder('longtext'); 
+    }
 }
 
