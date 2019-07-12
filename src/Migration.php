@@ -27,7 +27,7 @@ class Migration extends \yii\db\Migration
     /**
      * @var string table additional options
      */
-    public $tableOptions = '';
+    public $tableOptions = ' CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB ';
 
     /**
      * @var array record which sql run successfully
