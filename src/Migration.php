@@ -10,7 +10,7 @@ namespace io4n\dump;
 use Yii;
 use yii\db\Exception;
 use yii\helpers\Console;
-use hzhihua\dump\models\Output;
+use io4n\dump\models\Output;
 /**
  * Migration class file.
  * all migration file generated extends this file
