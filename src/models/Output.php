@@ -5,7 +5,7 @@
  * @Email cnzhihua@gmail.com
  */
 
-namespace hzhihua\dump\models;
+namespace io4n\dump\models;
 
 use Yii;
 use yii\base\View;
