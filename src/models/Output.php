@@ -9,9 +9,9 @@ namespace io4n\dump\models;
 
 use Yii;
 use yii\base\View;
-use hzhihua\dump\abstracts\AbstractOutput;
-use hzhihua\dump\exceptions\CouldNotTouchFileException;
-use hzhihua\dump\exceptions\CouldNotMkdirDirectoryException;
+use io4n\dump\abstracts\AbstractOutput;
+use io4n\dump\exceptions\CouldNotTouchFileException;
+use io4n\dump\exceptions\CouldNotMkdirDirectoryException;
 use yii\helpers\Console;
 
 /**
