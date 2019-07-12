@@ -12,7 +12,7 @@ use yii\db\Query;
 use yii\db\TableSchema;
 use yii\db\Expression;
 use yii\db\ColumnSchema;
-use hzhihua\dump\abstracts\AbstractSchema;
+use io4n\dump\abstracts\AbstractSchema;
 
 /**
  * Class Schema
