@@ -56,7 +56,7 @@ class Migration extends \yii\db\Migration
                 if (
                     isset($value['tableOptions']) &&
                     isset($value['class']) &&
-                    $value['class'] === 'hzhihua\dump\DumpController'
+                    $value['class'] === 'io4n\dump\DumpController'
                 ) {
                     $tableOptions = sprintf(
                         ' %s ',
