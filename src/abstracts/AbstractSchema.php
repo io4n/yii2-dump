@@ -5,7 +5,7 @@
  * @Email cnzhihua@gmail.com
  */
 
-namespace hzhihua\dump\abstracts;
+namespace io4n\dump\abstracts;
 
 use Yii;
 use yii\base\Component;
