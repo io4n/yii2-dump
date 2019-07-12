@@ -13,7 +13,7 @@ use yii\db\Connection;
 use yii\db\TableSchema;
 use yii\helpers\Console;
 use yii\console\Controller;
-use hzhihua\dump\models\Schema;
+use io4n\dump\models\Schema;
 
 /**
  * Generate migration file from an existing database
@@ -148,7 +148,7 @@ class DumpController extends Controller
      *
      * @var string
      */
-    public $tableOptions = null;
+    public $tableOptions = ' CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB ';
 
     /**
      * migrate file prefix
