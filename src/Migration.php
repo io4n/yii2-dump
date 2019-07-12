@@ -5,7 +5,7 @@
  * @Email cnzhihua@gmail.com
  */
 
-namespace hzhihua\dump;
+namespace io4n\dump;
 
 use Yii;
 use yii\db\Exception;
