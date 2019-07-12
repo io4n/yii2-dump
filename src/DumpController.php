@@ -242,12 +242,12 @@ class DumpController extends Controller
     /**
      * @var string $schema get schema table data
      */
-    public $schema = 'hzhihua\dump\models\Schema';
+    public $schema = 'io4n\dump\models\Schema';
 
     /**
      * @var string output table content at terminal or file
      */
-    public $output = 'hzhihua\dump\models\Output';
+    public $output = 'io4n\dump\models\Output';
 
     /**
      * @var string the directory of generating migrate file
@@ -257,7 +257,7 @@ class DumpController extends Controller
     /**
      * @var string the directory of migrate template file
      */
-    public $templateFile = '@vendor/hzhihua/yii2-dump/templates/migration.php';
+    public $templateFile = '@vendor/io4n/yii2-dump/templates/migration.php';
 
     /**
      * change the order of applying migration file
@@ -347,7 +347,7 @@ class DumpController extends Controller
         $this->schema = Instance::ensure($this->schema, Schema::class);
         $this->db = Instance::ensure($this->db, Connection::class);
         $this->schema->db = isset($schema['db']) ? Instance::ensure($schema['db'], Connection::class) : $this->db;
-        $this->output = Instance::ensure($this->output, 'hzhihua\dump\Models\Output');
+        $this->output = Instance::ensure($this->output, 'io4n\dump\Models\Output');
 
         Yii::$app->i18n->translations['dump*'] =
             $this->translations ?: [
