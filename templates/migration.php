@@ -13,7 +13,7 @@
 echo "<?php\n";
 ?>
 
-use hzhihua\dump\Migration;
+use io4n\dump\Migration;
 
 /**
  * Class <?= $className . "\n"?>
