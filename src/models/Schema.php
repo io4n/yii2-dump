@@ -661,7 +661,15 @@ DEFINITION;
             case 'bigint':
                 $type = 'bigInteger';
                 break;
-
+                
+            case 'text':
+                if($column->dbType == 'longtext'){
+                    $type = 'longtext';                
+                }else{
+                    $type = 'text';
+                }
+                break;
+                
             default:
                 $type = $column->type;
                 break;
